@@ -73,7 +73,6 @@
     }
   }
 
-
   .buttonsx {
     display: flex;
     justify-content: center;
@@ -84,9 +83,8 @@
     align-items: center;
     // background-color: red;
     width: 100%;
-
   }
-.buttons-containerx {
+  .buttons-containerx {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -97,7 +95,7 @@
     top: 7%;
     right: 7%;
   }
-  
+
   .buttonx {
     width: 80px;
     height: 80px;
@@ -109,7 +107,7 @@
     transition: background 0.3s ease;
     background: #7fb2bf;
   }
-  
+
   .buttonx:hover {
     background: transparent;
     color: #000;

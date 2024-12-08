@@ -1,5 +1,8 @@
 # Test de validation Frontend
+## Lien vers le projet
 
+Pour visualiser le projet, vous pouvez accéder à la version hébergée sur **Vercel** via ce lien :  
+[Voir le projet](https://frontend-dataleonlabs-mg0btq6qt-devbyyous-projects.vercel.app)
 ## Introduction
 
 Bonjour, pour valider mon niveau technique, je dois réaliser un exercice simple en front-end.
@@ -24,10 +27,7 @@ Les données utilisées pour cet exercice sont :
    - Si je clique sur **Yes**, le message *Good choice!* s'affiche.
    - Si je clique sur **No**, le message *Damn!* s'affiche.  
 
-## Lien vers le projet
 
-Pour visualiser le projet, vous pouvez accéder à la version hébergée sur **Vercel** via ce lien :  
-[Voir le projet sur Vercel](https://)
 
 
 #### Getting Started with Create React App
