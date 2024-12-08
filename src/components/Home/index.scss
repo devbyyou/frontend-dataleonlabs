@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+.home {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+  &__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -4;
+  }
+
+  &__canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -3;
+  }
+  .exploding-button {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: red;
+    border-radius: 50%;
+  }
+
+  .reset-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #61dafb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    z-index: 4;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .title {
+    // background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    flex-direction: column;
+    position: absolute;
+    z-index: -3;
+    top: 62px;
+
+    h1 {
+      font-family: "Playfair Display", serif;
+      font-size: 2.5rem;
+      font-weight: 700;
+      font-style: normal;
+      text-align: center;
+      color: #000000;
+      font-weight: 400;
+      // display: block;
+      font-size: 1.5rem;
+      line-height: 1.5;
+    }
+  }
+
+
+  .buttonsx {
+    display: flex;
+    justify-content: center;
+    // gap: 20px;
+    // position: absolute;
+    // bottom: 20%;
+    z-index: 5;
+    align-items: center;
+    // background-color: red;
+    width: 100%;
+
+  }
+.buttons-containerx {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    // bottom: 27%;
+    z-index: 4;
+    align-items: center;
+    top: 7%;
+    right: 7%;
+  }
+  
+  .buttonx {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #7fb2bf;
+    border-radius: 50%;
+    color: #000000;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    background: #7fb2bf;
+  }
+  
+  .buttonx:hover {
+    background: transparent;
+    color: #000;
+  }
+}
